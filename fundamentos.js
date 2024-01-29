@@ -60,6 +60,43 @@ switch (fruta) {
 // estrutura de repetição
 
 //contador, condição de limites, incremento
-for(let i = 0; < 5; i =  i++) {
+let i = 0
+for(let i = 0;  5; i =  i++) {
     console.log(' o valor de i é:' + i)
 }
+
+
+// while
+let a = 0
+while (a < 5) {
+    console.log('o valor de k:' + a)
+    i++
+}
+
+
+// do while
+let j = 0
+do {
+    console.log('o valor de j é:' + j)
+    j++
+} while( j < 5)
+
+
+
+// function
+// function nome(arg 1, arg2) {corpo}
+function cumprimentar(nome) {
+    console.log('Olá' + nome )
+}
+// invocação = nome()
+cumprimentar('Gabriela')
+
+
+//arrow function
+const testeArrow = () => console.log('isso também é uma função')
+testeArrow()
+
+
+//array, listas
+const numeros = [1, 2, 3, 4, 5]
+console.log(numeros)
